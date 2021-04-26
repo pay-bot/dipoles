@@ -3,8 +3,8 @@ export default function ReasonItem({ image, deskripsi, detail }) {
 
     <div className="flex md:flex-row flex-col mb-4">
       <div className="mx-auto">
-        <div className="border-2 rounded-full hover:bg-white border-white items-center p-1">
-          <img src={image} alt="" className="rounded-full mx-auto " />
+        <div className="border-2 rounded-full hover:bg-white border-white items-center md:p-1 p-2">
+          <img src={image} alt="" className="rounded-full md:w-60 w-auto mx-auto " />
         </div>
       </div>
 

@@ -13,7 +13,7 @@ export default function Nav() {
         <Navitems>Home</Navitems>
         <Navitems>About</Navitems>
         <Navitems>Portofolio</Navitems>
-        <Navitems> <Button /></Navitems>
+        <Navitems> <Button /> </Navitems>
 
       </ul >
     </>

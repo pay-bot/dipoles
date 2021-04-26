@@ -5,6 +5,13 @@ module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    screens: {
+      sm: '360px',
+      md: '638px',
+      lg: '1024px',
+      xl: '1280px',
+      '2xl': '1536px',
+    },
     aspectRatio: {
       none: 0,
       square: [1, 1],

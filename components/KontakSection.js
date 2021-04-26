@@ -2,9 +2,9 @@ export default function KontakSection() {
   return (
     <div className="mx-auto w-full bg-gray-800 mt-10">
       <div className="container mx-auto ">
-        <div className="py-[50px] w-11/12 flex md:flex-row flex-col mx-auto">
+        <div className="py-[50px] md:w-full w-11/12 flex md:flex-row flex-col mx-auto">
           <div className="xl:w-6/12 md:w-full bg-gray-600 h-[500px] ">
-            <div className="w-5/12 flex flex-col items-center justify-center h-full mx-auto">
+            <div className="w-6/12 flex flex-col items-center justify-center h-full mx-auto">
               <h3 className="text-white uppercase text-center mb-1 text-3xl font-semibold">hubungi kami</h3>
               <h4 className="text-white uppercase text-center mb-1 text-2xl font-semibold">Dipoles</h4>
               <p className="text-white text-center mb-1 text-lg font-semibold">Jl.Margonda Raya</p>

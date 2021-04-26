@@ -10,13 +10,13 @@ export default function Dropdown() {
         </button>
         <ul className="absolute hidden text-gray-700 pt-1 group-hover:block">
           <li className>
-            <a className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">One</a>
+            <a className="rounded-t bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Paket Penuh</a>
           </li>
           <li className>
-            <a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Two</a>
+            <a className="bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Poles & Kristalasi</a>
           </li>
           <li className>
-            <a className="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Three is the magic number</a>
+            <a className="rounded-b bg-gray-200 hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap" href="#">Hanya Poles</a>
           </li>
         </ul>
       </div>
