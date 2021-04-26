@@ -5,7 +5,7 @@ export default function ReasonSection() {
   return (
     <>
       <div className="w-full lg:pb-12 md:pb-12 h-full bg-gray-600 mt-4">
-        <div className="container md:w-full w-11/12 flex md:flex-row flex-col mx-auto justify-center">
+        <div className="w-11/12 flex md:flex-row flex-col mx-auto justify-center">
           <div className="xl:w-6/12 md:w-full mt-10 xl:mr-4 ">
             <img src="/Reason.jpg" className="h-full md:w-full " />
           </div>
