@@ -11,13 +11,15 @@ import FooterSection from "../components/FooterSection"
 export default function Home() {
   return (
     <>
-      <Hero />
-      <PaketSection />
-      <LayananSection />
-      <ReasonSection />
-      <ProsesSection />
-      <KontakSection />
-      <FooterSection />
+      <div className="w-full">
+        <Hero />
+        <PaketSection />
+        <LayananSection />
+        <ReasonSection />
+        <ProsesSection />
+        <KontakSection />
+        <FooterSection />
+      </div>
     </>
   )
 }
