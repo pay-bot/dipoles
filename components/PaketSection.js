@@ -4,7 +4,7 @@ export default function PaketSection() {
   return (
     <section className="py-4 shadow-xl">
       <div className="mx-auto">
-        <p className="text-3xl text-center uppercase font-semibold mb-5 text-white bg-blue-500 md:p-6 p-2 rounded-xl ">Paket Layanan Kami</p>
+        <p className="text-3xl text-center uppercase font-semibold mb-5 text-gray-700 md:p-6 p-2  ">Paket Layanan Kami</p>
 
         <div className="container w-11/12 mx-auto flex xl:flex-row lg:flex-row md:flex-row flex-col">
           <div className="md:w-4/12 w-full md:mr-3 mr-0 md:border-r-2 border-0">

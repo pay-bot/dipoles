@@ -10,47 +10,37 @@ export default function LayananSection() {
 
         </div>
       </div>
-      <div class="grid xl:grid-cols-3 md:grid-cols-1 ml-1 gap-1 ">
+      <div class="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 ml-1 gap-1 ">
         <LayananItem
           tipe="jasa poles marmer"
           ulang="Jasa Poles Ulang Marmer : Rp25.000 – Rp40.000 /meter"
           awal="Jasa Poles Ulang Marmer : Rp25.000 – Rp40.000 /meter"
         />
-        <div class="bg-black h-60">
-          <h3 className="text-white text-center text-2xl font-semibold my-10 -mb-6">Jasa Poles Marmer</h3>
-          <ul className="text-white text-left list-disc m-16">
-            <li>Jasa Poles Ulang Marmer : Rp25.000 – Rp40.000 /meter</li>
-            <li>Jasa Poles Awal Marmer : Rp50.000 – Rp80.000 /meter</li>
-          </ul>
-        </div>
-        <div class="bg-black h-60">
-          <h3 className="text-white text-center text-2xl font-semibold my-10 -mb-6">Jasa Poles Marmer</h3>
-          <ul className="text-white text-left list-disc m-16">
-            <li>Jasa Poles Ulang Marmer : Rp25.000 – Rp40.000 /meter</li>
-            <li>Jasa Poles Awal Marmer : Rp50.000 – Rp80.000 /meter</li>
-          </ul>
-        </div>
-        <div class="bg-black h-60">
-          <h3 className="text-white text-center text-2xl font-semibold my-10 -mb-6">Jasa Poles Marmer</h3>
-          <ul className="text-white text-left list-disc m-16">
-            <li>Jasa Poles Ulang Marmer : Rp25.000 – Rp40.000 /meter</li>
-            <li>Jasa Poles Awal Marmer : Rp50.000 – Rp80.000 /meter</li>
-          </ul>
-        </div>
-        <div class="bg-black h-60">
-          <h3 className="text-white text-center text-2xl font-semibold my-10 -mb-6">Jasa Poles Marmer</h3>
-          <ul className="text-white text-left list-disc m-16">
-            <li>Jasa Poles Ulang Marmer : Rp25.000 – Rp40.000 /meter</li>
-            <li>Jasa Poles Awal Marmer : Rp50.000 – Rp80.000 /meter</li>
-          </ul>
-        </div>
-        <div class="bg-black h-60">
-          <h3 className="text-white text-center text-2xl font-semibold my-10 -mb-6">Jasa Poles Marmer</h3>
-          <ul className="text-white text-left list-disc m-16">
-            <li>Jasa Poles Ulang Marmer : Rp25.000 – Rp40.000 /meter</li>
-            <li>Jasa Poles Awal Marmer : Rp50.000 – Rp80.000 /meter</li>
-          </ul>
-        </div>
+        <LayananItem
+          tipe="jasa poles marmer"
+          ulang="Jasa Poles Ulang Marmer : Rp25.000 – Rp40.000 /meter"
+          awal="Jasa Poles Ulang Marmer : Rp25.000 – Rp40.000 /meter"
+        />
+        <LayananItem
+          tipe="jasa poles marmer"
+          ulang="Jasa Poles Ulang Marmer : Rp25.000 – Rp40.000 /meter"
+          awal="Jasa Poles Ulang Marmer : Rp25.000 – Rp40.000 /meter"
+        />
+        <LayananItem
+          tipe="jasa poles marmer"
+          ulang="Jasa Poles Ulang Marmer : Rp25.000 – Rp40.000 /meter"
+          awal="Jasa Poles Ulang Marmer : Rp25.000 – Rp40.000 /meter"
+        />
+        <LayananItem
+          tipe="jasa poles marmer"
+          ulang="Jasa Poles Ulang Marmer : Rp25.000 – Rp40.000 /meter"
+          awal="Jasa Poles Ulang Marmer : Rp25.000 – Rp40.000 /meter"
+        />
+        <LayananItem
+          tipe="jasa poles marmer"
+          ulang="Jasa Poles Ulang Marmer : Rp25.000 – Rp40.000 /meter"
+          awal="Jasa Poles Ulang Marmer : Rp25.000 – Rp40.000 /meter"
+        />
       </div>
       <div className="w-full bg-red-600 py-2 my-2 rounded-xl">
         <h3 className="font-semibold md:text-lg text-lg text-center text-white">

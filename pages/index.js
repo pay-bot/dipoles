@@ -13,9 +13,9 @@ export default function Home() {
     <>
       <div className="w-full">
         <Hero />
+        <ReasonSection />
         <PaketSection />
         <LayananSection />
-        <ReasonSection />
         <ProsesSection />
         <KontakSection />
         <FooterSection />
