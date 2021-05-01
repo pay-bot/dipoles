@@ -1,22 +1,26 @@
 import Navitems from "./Navitems"
-import Dropdown from "./Dropdown"
-import Button from "./Button"
 
+import classnames from "classnames";
 
-export default function Nav() {
+export default function Nav({ scheme, dir }) {
+  const dirs = {
+    horizontal: "justify-center space-x-10",
+    vertical: "flex-col space-y-6"
+  }
+
+  const pickedDir = dirs[dir];
+
   return (
-    <>
+    <ul className={classnames("flex my-5 uppercase", pickedDir)}>
 
-      <ul className="items-center text-white space-x-10 justify-center lg:flex hidden" >
-        <Dropdown />
 
-        <Navitems>Home</Navitems>
-        <Navitems>About</Navitems>
-        <Navitems>Portofolio</Navitems>
-        <Navitems> <Button /> </Navitems>
+      <Navitems scheme={scheme} href="/">home</Navitems>
+      <Navitems scheme={scheme} href="/Pricing">harga</Navitems>
 
-      </ul >
-    </>
+
+    </ul >
+
+
 
   )
 }

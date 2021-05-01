@@ -10,7 +10,7 @@ export default function LayananSection() {
 
         </div>
       </div>
-      <div class="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 ml-1 gap-1 ">
+      <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 ml-1 gap-1 ">
         <LayananItem
           tipe="jasa poles marmer"
           ulang="Jasa Poles Ulang Marmer : Rp25.000 – Rp40.000 /meter"

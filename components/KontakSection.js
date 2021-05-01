@@ -1,6 +1,6 @@
 export default function KontakSection() {
   return (
-    <div className="mx-auto w-full bg-gray-800 mt-10">
+    <section className="mx-auto w-full bg-gray-800 mt-10" id="KontakSection">
       <div className="mx-auto ">
         <div className="py-[50px] w-11/12 flex md:flex-row flex-col mx-auto">
           <div className="xl:w-6/12 md:w-full bg-gray-600 h-[500px] ">
@@ -32,6 +32,6 @@ export default function KontakSection() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }

@@ -7,19 +7,24 @@ import ProsesSection from "../components/ProsesSection"
 import KontakSection from "../components/KontakSection"
 import FooterSection from "../components/FooterSection"
 
+import { withRouter } from 'next/router';
 
-export default function Home() {
+
+function Home() {
   return (
     <>
-      <div className="w-full">
-        <Hero />
-        <ReasonSection />
-        <PaketSection />
-        <LayananSection />
-        <ProsesSection />
-        <KontakSection />
-        <FooterSection />
-      </div>
+
+      <Hero />
+      <ReasonSection />
+
+      <PaketSection />
+      <LayananSection />
+      <ProsesSection />
+      <KontakSection />
+      <FooterSection />
+
     </>
   )
 }
+
+export default Home;
