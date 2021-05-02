@@ -15,7 +15,8 @@ export default function PricingCard({ className, variant, jenis, hrg1, hrg2, met
 
   return (
     <>
-      <div className={classnames("flex flex-col items-center overflow-hidden", pickedVariant,
+
+      <div className={classnames("flex flex-col items-center  h-full border shadow-xl rounded-xl", pickedVariant,
         className
       )}>
         <h5 className="text-xl w-full uppercase text-gray-700 text-center font-semibold border-b border-gray-300 mb-7">

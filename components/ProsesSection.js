@@ -1,6 +1,6 @@
 export default function ProsesSection() {
   return (
-    <div className=" mx-auto mt-10">
+    <div className=" lg:container mx-auto mt-10">
       <div className="xl:w-4/12 md:w-7/12 mx-auto">
         <h3 className="font-semibold text-center text-black text-2xl mb-4">
           Proses Poles Marmer, Granit, & Teraso

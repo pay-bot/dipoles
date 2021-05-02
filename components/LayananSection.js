@@ -12,32 +12,32 @@ export default function LayananSection() {
       </div>
       <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 ml-1 gap-1 ">
         <LayananItem
-          tipe="jasa poles marmer"
+          tipe="Jasa Poles Marmer"
           ulang="Jasa Poles Ulang Marmer : Rp25.000 – Rp40.000 /meter"
           awal="Jasa Poles Ulang Marmer : Rp25.000 – Rp40.000 /meter"
         />
         <LayananItem
-          tipe="jasa poles marmer"
+          tipe="Jasa Poles Granit"
           ulang="Jasa Poles Ulang Marmer : Rp25.000 – Rp40.000 /meter"
           awal="Jasa Poles Ulang Marmer : Rp25.000 – Rp40.000 /meter"
         />
         <LayananItem
-          tipe="jasa poles marmer"
+          tipe="Jasa Poles Terraso"
           ulang="Jasa Poles Ulang Marmer : Rp25.000 – Rp40.000 /meter"
           awal="Jasa Poles Ulang Marmer : Rp25.000 – Rp40.000 /meter"
         />
         <LayananItem
-          tipe="jasa poles marmer"
+          tipe="Jasa Poles Lainnya"
           ulang="Jasa Poles Ulang Marmer : Rp25.000 – Rp40.000 /meter"
           awal="Jasa Poles Ulang Marmer : Rp25.000 – Rp40.000 /meter"
         />
         <LayananItem
-          tipe="jasa poles marmer"
+          tipe="Jasa Poles Kamar Mandi"
           ulang="Jasa Poles Ulang Marmer : Rp25.000 – Rp40.000 /meter"
           awal="Jasa Poles Ulang Marmer : Rp25.000 – Rp40.000 /meter"
         />
         <LayananItem
-          tipe="jasa poles marmer"
+          tipe="Jasa Poles Kitchen Set"
           ulang="Jasa Poles Ulang Marmer : Rp25.000 – Rp40.000 /meter"
           awal="Jasa Poles Ulang Marmer : Rp25.000 – Rp40.000 /meter"
         />

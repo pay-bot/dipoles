@@ -2,14 +2,14 @@ import PaketCard from "./PaketCard"
 
 export default function PaketSection() {
   return (
-    <section className="py-4 shadow-xl">
+    <section className="lg:container w-11/12 py-4 shadow-xl">
       <div className="mx-auto">
         <p className="text-3xl text-center uppercase font-semibold mb-5 text-gray-700 md:p-6 p-2  ">Paket Layanan Kami</p>
 
         <div className="w-11/12 mx-auto flex xl:flex-row lg:flex-row md:flex-row flex-col">
-          <div className="md:w-4/12 w-full md:mr-3 mr-0 md:border-r-2 border-0">
 
 
+          <div className="p-2 md:w-4/12 w-full border-r ">
             <PaketCard
               image="/poles-marmer-jakarta-selatan-small.png"
               jenis="JASA POLES MARMER"
@@ -17,7 +17,7 @@ export default function PaketSection() {
               harga="Harga Mulai dari"
             />
           </div>
-          <div className="md:w-4/12 w-full md:mr-3 mx-0 md:border-r-2 md:border-l-2 border-0">
+          <div className="p-2 md:w-4/12 w-full border-r">
             <PaketCard
               image="/poles-marmer-jakarta-selatan-small.png"
               jenis="JASA POLES GRANIT"
@@ -25,7 +25,7 @@ export default function PaketSection() {
               harga="Harga Mulai dari"
             />
           </div>
-          <div className="md:w-4/12 w-full md:mr-3 mr-0 md:border-l-2 border-0">
+          <div className="p-2 md:w-4/12 w-full">
             <PaketCard
               image="/poles-marmer-jakarta-selatan-small.png"
               jenis="JASA POLES TERASO"
@@ -33,14 +33,10 @@ export default function PaketSection() {
               harga="Harga Mulai dari"
             />
           </div>
-
-
-
         </div>
         <div className="hidden xl-block lg:block md:block border-black border-2 bg-black h-1 w-8/12 mx-auto mt-4 mb-4">
 
         </div>
-
 
       </div>
     </section >

@@ -1,6 +1,7 @@
 import Navitems from "./Navitems"
-
+import Button from "./Button"
 import classnames from "classnames";
+
 
 export default function Nav({ scheme, dir }) {
   const dirs = {
@@ -11,14 +12,17 @@ export default function Nav({ scheme, dir }) {
   const pickedDir = dirs[dir];
 
   return (
-    <ul className={classnames("flex my-5 uppercase", pickedDir)}>
+    <>
+      <div className="lg:flex md:block items-center">
+        <ul className={classnames("flex my-6 uppercase lg:mr-auto mr-0", pickedDir)}>
+          <Navitems scheme={scheme} href="/">home</Navitems>
+          <Navitems scheme={scheme} href="/Pricing">paket harga & layanan</Navitems>
+          <Navitems scheme={scheme} href="/Pricing">tentang kami</Navitems>
+        </ul >
+        <Button />
+      </div>
 
-
-      <Navitems scheme={scheme} href="/">home</Navitems>
-      <Navitems scheme={scheme} href="/Pricing">harga</Navitems>
-
-
-    </ul >
+    </>
 
 
 
