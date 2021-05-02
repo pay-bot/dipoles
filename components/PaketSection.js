@@ -2,14 +2,14 @@ import PaketCard from "./PaketCard"
 
 export default function PaketSection() {
   return (
-    <section className="lg:container w-11/12 py-4 shadow-xl">
+    <section className="lg:container py-4 shadow-xl">
       <div className="mx-auto">
         <p className="text-3xl text-center uppercase font-semibold mb-5 text-gray-700 md:p-6 p-2  ">Paket Layanan Kami</p>
 
-        <div className="w-11/12 mx-auto flex xl:flex-row lg:flex-row md:flex-row flex-col">
+        <div className="mx-auto flex xl:flex-row lg:flex-row md:flex-row flex-col">
 
 
-          <div className="p-2 md:w-4/12 w-full border-r ">
+          <div className="p-2 md:w-4/12 w-full md:border-r  ">
             <PaketCard
               image="/poles-marmer-jakarta-selatan-small.png"
               jenis="JASA POLES MARMER"
@@ -17,7 +17,7 @@ export default function PaketSection() {
               harga="Harga Mulai dari"
             />
           </div>
-          <div className="p-2 md:w-4/12 w-full border-r">
+          <div className="p-2 md:w-4/12 w-full md:space-y-3border-r">
             <PaketCard
               image="/poles-marmer-jakarta-selatan-small.png"
               jenis="JASA POLES GRANIT"

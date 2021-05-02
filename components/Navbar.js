@@ -8,20 +8,20 @@ export default function Navbar() {
   const [offcanvas, setOffcanvas] = useState(false);
   return (
 
-    <div className="lg:container w-11/12">
+    <div className="lg:container w-11/12 bg-white">
       <div className="flex">
-        <div className="w-3/12 ml-4 my-5 text-white uppercase text-3xl font-semibold tracking-widest items-center"><Link href="/"><a>
+        <div className="w-3/12 ml-4 my-5 text-black uppercase text-3xl font-semibold tracking-widest items-center"><Link href="/"><a>
           di<span className="text-blue-500">poles</span></a></Link>
         </div>
         <div className="w-9/12 hidden md:block ">
 
-          <Nav dir="horizontal" scheme="light" />
+          <Nav dir="horizontal" scheme="dark" />
         </div>
         <div className="w-9/12 md:hidden text-right">
-          <img src="/menu.svg" className="cursor-pointer inline-block mt-8 right-8 w-8" onClick={() => setOffcanvas(true)} />
+          <img src="/menu.svg" className="cursor-pointer inline-block mt-6 right-8 w-8" onClick={() => setOffcanvas(true)} />
         </div>
         <div className={classnames("fixed bg-white z-10 top-0 h-full w-full p-10 md:hidden transition-all", offcanvas ? "right-0" : "-right-full")}>
-          <img src="/X.svg" className="cursor-pointer absolute top-8 right-8 w-8" onClick={() => setOffcanvas(false)} />
+          <img src="/X.svg" className="cursor-pointer absolute top-6 right-8 w-8" onClick={() => setOffcanvas(false)} />
           <Nav
             scheme="dark"
             dir="vertical"

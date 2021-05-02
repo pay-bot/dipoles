@@ -9,6 +9,9 @@ export default function Pricing() {
       <Navbar />
       <h2 className="text-center text-2xl font-semibold">PAKET HARGA DAN LAYANAN KAMI</h2>
       <PolesUlang />
+      <PolesUlang />
+      <PolesUlang />
+      <PolesUlang />
 
 
     </>
