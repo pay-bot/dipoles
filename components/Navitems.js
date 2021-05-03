@@ -13,7 +13,7 @@ export default function Navitems({ href, scheme, children }) {
     <li>
       <Link href={href}><a
 
-        className={classnames("text-md transition font-semibold text-white", pickedScheme)}
+        className={classnames("text-sm transition font-semibold text-white", pickedScheme)}
       >
         {children}
       </a></Link>

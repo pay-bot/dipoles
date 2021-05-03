@@ -13,11 +13,11 @@ export default function Nav({ scheme, dir }) {
 
   return (
     <>
-      <div className="lg:flex md:block items-center">
+      <div className="lg:flex items-center z-30">
         <ul className={classnames("flex my-6 uppercase lg:mr-auto mr-0", pickedDir)}>
           <Navitems scheme={scheme} href="/">home</Navitems>
           <Navitems scheme={scheme} href="/Pricing">paket harga & layanan</Navitems>
-          <Navitems scheme={scheme} href="">tentang kami</Navitems>
+          <Navitems scheme={scheme} href="/about">tentang kami</Navitems>
         </ul >
         <Button scheme={scheme} />
       </div>
