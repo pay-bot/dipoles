@@ -19,19 +19,19 @@ export default function ProsesSection() {
         <div className="xl:w-4/12 md:w-full md:mr-2 mr:0">
           <p className="text-black text-center text-2xl mb-5">Proses Poles Marmer</p>
           <div className="embed-responsive aspect-ratio-4/3">
-            <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/J---aiyznGQ"></iframe>
+            <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/0QixNCQ49u0"></iframe>
           </div>
         </div>
         <div className="xl:w-4/12 md:w-full md:mr-2 mr:0">
           <p className="text-black text-center text-2xl mb-5">Proses Poles Marmer</p>
           <div className="embed-responsive aspect-ratio-4/3">
-            <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/J---aiyznGQ"></iframe>
+            <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/UHYRBRrCNk0"></iframe>
           </div>
         </div>
         <div className="xl:w-4/12 md:w-full">
           <p className="text-black text-center text-2xl mb-5">Proses Poles Marmer</p>
           <div className="embed-responsive aspect-ratio-4/3">
-            <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/J---aiyznGQ"></iframe>
+            <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/rh4noj-oVdA&t=1s"></iframe>
           </div>
         </div>
       </div>

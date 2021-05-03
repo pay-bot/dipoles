@@ -6,7 +6,7 @@ export default function contact() {
   return (
     <>
       <Navbar />
-      <div className="flex lg:flex-row flex-col :w-10/12 my-10 mx-auto">
+      <div className="flex lg:flex-row flex-col w-10/12 my-10 mx-auto">
         <div className="lg:w-6/12 w-11/12 mx-auto">
           <Map />
         </div>
