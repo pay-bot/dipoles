@@ -10,7 +10,7 @@ export default function ReasonItem({ image, deskripsi, detail }) {
       </div>
       <div className=" ">
         <h3 className="text-gray-700 lg:text-2xl text-lg text-center font-semibold ">{deskripsi}</h3>
-        <p className="lg:text-md text-sm mt-2 text-gray-700 mb-1">{detail}</p>
+        <p className="lg:text-md text-center text-sm mt-2 text-gray-700 mb-1">{detail}</p>
       </div>
     </div>
   )
