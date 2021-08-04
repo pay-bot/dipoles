@@ -10,9 +10,9 @@ export default function KontakSection() {
               <div className="flex text-black text-md font-semibold"><img src="location.svg" className="w-6 mx-2" />Alamat</div>
               <p className="ml-10 mb-7">Jl. Margonda Raya</p>
               <div className="flex text-black text-md font-semibold"><img src="phoneout.svg" className="w-6 mx-2" />Phone</div>
-              <p className="ml-10 mb-7">085284367858</p>
+              <p className="ml-10 mb-7">085284343434</p>
               <div className="flex text-black text-md font-semibold"><img src="mail.svg" className="w-6 mx-2" />Mail</div>
-              <p className="ml-10 mb-7">heldih19@yahoo.com</p>
+              <p className="ml-10 mb-7">dipols@yahoo.com</p>
             </div>
           </div>
           <div className="xl:w-6/12 md:w-full h-full">
